@@ -14,7 +14,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 Given an integer x, return true if x is a palindrome, and false otherwise.
 
 4. Integer to Roman
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Roman numerals are represented by seven different symbols: `I, V, X, L, C, D and M`.
 
 | Symbol | Value |
 | ------ | ----- |
@@ -36,7 +36,7 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 - Given an integer, convert it to a roman numeral.
 
 5. Roman to Integer
-Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+Roman numerals are represented by seven different symbols: `I, V, X, L, C, D and M`.
 
 | Symbol | Value |
 | ------ | ----- |
@@ -58,7 +58,7 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 - Given a roman numeral, convert it to an integer.
 
 6. Valid Parentheses
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string s containing just the characters `'(', ')', '{', '}', '[' and ']'`, determine if the input string is valid.
 
 An input string is valid if:
 - Open brackets must be closed by the same type of brackets.
