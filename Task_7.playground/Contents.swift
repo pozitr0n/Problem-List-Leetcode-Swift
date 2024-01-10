@@ -25,9 +25,11 @@ func longestCommonPrefix(_ strs: [String]) -> String {
                 let lastCharacter = finalString.last!
                 
                 if lastCharacter != elemString[index] {
+                    
                     finalString.remove(at: finalString.index(before: finalString.endIndex))
                     conditionIsTrue = false
                     break
+                    
                 }
                 
             }
