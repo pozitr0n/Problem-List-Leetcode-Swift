@@ -3,6 +3,7 @@ import Foundation
 
 func longestCommonPrefix(_ strs: [String]) -> String {
  
+    // All the variables
     var finalString: String = ""
     var conditionIsTrue: Bool = true
     var count: Int = 0
