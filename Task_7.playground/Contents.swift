@@ -20,7 +20,9 @@ func longestCommonPrefix(_ strs: [String]) -> String {
             let index = elemString.index(elemString.startIndex, offsetBy: count)
             
             if finalString.count != count + 1 {
+                
                 finalString.append(elemString[index])
+                
             } else {
                 
                 let lastCharacter = finalString.last!
