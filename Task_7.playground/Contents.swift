@@ -56,5 +56,5 @@ func longestCommonPrefix(_ strs: [String]) -> String {
 let strs = ["flowe","flowersdfs","flowerccvxcvx","flowersesdfsdfo", "flowerrueourtoeir"]
 print(longestCommonPrefix(strs))
 
-let strs = ["flo","flowe","flower","flowerse", "flowasdsadas"]
-print(longestCommonPrefix(strs))
+let strs1 = ["flo","flowe","flower","flowerse", "flowasdsadas"]
+print(longestCommonPrefix(strs1))
