@@ -16,6 +16,7 @@ func isValid(_ s: String) -> Bool {
     }
     
     var mainStack = [Character]()
+    
     for currentCharacter in s {
         
         let curr = charactersMap[currentCharacter]
