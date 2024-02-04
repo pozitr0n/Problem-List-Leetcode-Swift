@@ -14,8 +14,7 @@ func intToRoman(_ num: Int) -> String {
                                                                 (9, "IX"),
                                                                 (5, "V"),
                                                                 (4, "IV"),
-                                                                (1, "I")
-    ]
+                                                                (1, "I")]
     
     var romanFinalString = ""
     var remainder = 0
