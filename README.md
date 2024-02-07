@@ -1,5 +1,5 @@
-# Problem List Leetcode -> Swift
-Solving programming tasks in Swift from the portal https://leetcode.com/problemset/all/
+# Problem List Leetcode -> Swift language
+## Solving programming tasks in Swift from the portal https://leetcode.com/problemset/all/
 
 1. Two Sum
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
