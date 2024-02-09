@@ -68,3 +68,8 @@ An input string is valid if:
 7. Longest Common Prefix
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".
+
+8. Merge Two Sorted Lists
+You are given the heads of two sorted linked lists `list1` and `list2`.
+Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.
