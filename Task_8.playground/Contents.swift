@@ -1,6 +1,5 @@
 import UIKit
 import Foundation
-import UIKit
 
 // Parent ListNode public class
 public class ListNode {
