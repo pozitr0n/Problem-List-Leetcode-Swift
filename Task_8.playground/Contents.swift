@@ -27,7 +27,18 @@ public class ListNode {
 class Solution {
     
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+    
+        return ListNode()
         
     }
     
 }
+
+var list1 = ListNode(1)
+list1.next = ListNode(2)
+list1.next = ListNode(4)
+
+var list2 = ListNode(1)
+list2.next = ListNode(3)
+list2.next = ListNode(4)
+
