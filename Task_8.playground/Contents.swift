@@ -25,6 +25,7 @@ public class ListNode {
     
 }
 
+// Solution class
 class Solution {
     
     // Merging method of the Solution class
@@ -36,6 +37,7 @@ class Solution {
     
 }
 
+// Test calls for testing task and created implementation
 var list1 = ListNode(1)
 list1.next = ListNode(2)
 list1.next = ListNode(4)
