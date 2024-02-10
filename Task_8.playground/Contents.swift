@@ -2,6 +2,7 @@ import UIKit
 import Foundation
 import UIKit
 
+// Parent ListNode public class
 public class ListNode {
     
     public var val: Int
@@ -26,6 +27,7 @@ public class ListNode {
 
 class Solution {
     
+    // Merging method of the Solution class
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
     
         return ListNode()
