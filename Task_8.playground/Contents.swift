@@ -37,10 +37,13 @@ class Solution {
 }
 
 // Test calls for testing task and created implementation
+
+// Test list 1
 var list1 = ListNode(1)
 list1.next = ListNode(2)
 list1.next = ListNode(4)
 
+// Test list 2
 var list2 = ListNode(1)
 list2.next = ListNode(3)
 list2.next = ListNode(4)
