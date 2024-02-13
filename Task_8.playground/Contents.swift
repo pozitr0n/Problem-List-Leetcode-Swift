@@ -66,11 +66,22 @@ class Solution {
         let bufferArraySorted = bufferArray.sorted()
         
         // Step 4: Create final ListNode()
+        var listNodeFinal: [ListNode] = []
+        
         for sortedElement in bufferArraySorted {
-            print(sortedElement)
+            listNodeFinal.append(ListNode(sortedElement, nil))
         }
         
-        return ListNode()
+        while listNodeFinal.count != 1 {
+            
+            let lastItem = listNodeFinal[listNodeFinal.count - 1]
+            listNodeFinal[(listNodeFinal.count) - 2].next = lastItem
+            
+            listNodeFinal.remove(at: listNodeFinal.count - 1)
+            
+        }
+            
+        return listNodeFinal[0]
         
     }
     
@@ -84,4 +95,4 @@ var list1 = ListNode(1, ListNode(2, ListNode(4)))
 // Test list 2
 var list2 = ListNode(1, ListNode(3, ListNode(4)))
 
-Solution().mergeTwoLists(list1, list2)
+let testMainList = Solution().mergeTwoLists(list1, list2)
