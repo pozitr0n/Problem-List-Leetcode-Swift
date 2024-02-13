@@ -29,38 +29,42 @@ class Solution {
     
     // Merging method of the Solution class
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
-    
+        
         // Step 1: Create array for elements and for sorting in final
         var bufferArray = [Int]()
         
         // Step 2: Get all the values from all the lists and add all of them into buffer array
-        guard var list1 = list1 else {
-            return ListNode()
+        if list1 == nil && list2 == nil {
+            return nil
         }
         
-        while list1.next != nil {
+        if var list1 = list1 {
             
+            while list1.next != nil {
+                
+                bufferArray.append(list1.val)
+                list1 = list1.next!
+                
+            }
+            
+            // the last value
             bufferArray.append(list1.val)
-            list1 = list1.next!
             
         }
-
-        // the last value
-        bufferArray.append(list1.val)
         
-        guard var list2 = list2 else {
-            return ListNode()
-        }
-        
-        while list2.next != nil {
+        if var list2 = list2 {
             
+            while list2.next != nil {
+                
+                bufferArray.append(list2.val)
+                list2 = list2.next!
+                
+            }
+            
+            // the last value
             bufferArray.append(list2.val)
-            list2 = list2.next!
             
         }
-
-        // the last value
-        bufferArray.append(list2.val)
         
         // Step 3: Sorting
         let bufferArraySorted = bufferArray.sorted()
@@ -80,7 +84,7 @@ class Solution {
             listNodeFinal.remove(at: listNodeFinal.count - 1)
             
         }
-            
+        
         return listNodeFinal[0]
         
     }
