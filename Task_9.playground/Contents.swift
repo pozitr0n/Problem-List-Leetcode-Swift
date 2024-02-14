@@ -1,4 +1,26 @@
 import UIKit
 import Foundation
 
+// Custom Judge:
 
+// The judge will test your solution with the following code:
+// int[] nums = [...]; // Input array
+// int[] expectedNums = [...]; // The expected answer with correct length
+// int k = removeDuplicates(nums); // Calls your implementation
+// assert k == expectedNums.length;
+// for (int i = 0; i < k; i++) {
+//     assert nums[i] == expectedNums[i];
+// }
+// If all assertions pass, then your solution will be accepted.
+
+class Solution {
+    
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        return 5
+    }
+    
+}
+
+// test
+var testArray = [Int]()
+let testResult = print(Solution().removeDuplicates(&testArray))
