@@ -23,6 +23,6 @@ class Solution {
     
 }
 
-// test
-var testArray = [Int]()
-let testResult = print(Solution().removeDuplicates(&testArray))
+// General test
+var testArray: Array<Int> = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+print(Solution().removeDuplicates(&testArray))
