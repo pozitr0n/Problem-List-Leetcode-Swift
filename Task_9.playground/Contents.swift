@@ -18,7 +18,24 @@ import Foundation
 class Solution {
     
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-        return 5
+       
+        var bufferArray = [Int]()
+        var addedArray = Set<Int>()
+        
+        for elem in nums {
+            
+            if !addedArray.contains(elem) {
+                
+                bufferArray.append(elem)
+                addedArray.insert(elem)
+                
+            }
+            
+        }
+        
+        nums = bufferArray
+        return bufferArray.count
+        
     }
     
 }
