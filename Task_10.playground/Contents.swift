@@ -17,24 +17,11 @@ import Foundation
 class Solution {
     
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
-     
-//        var bufferArray = [Int]()
-//        var addedArray = Set<Int>()
-//        
-//        for elem in nums {
-//            
-//            if !addedArray.contains(elem) {
-//                
-//                bufferArray.append(elem)
-//                addedArray.insert(elem)
-//                
-//            }
-//            
-//        }
-//        
-//        nums = bufferArray
-//        return bufferArray.count
-        return 0
+
+        let newArray = nums.filter {$0 != val}
+        nums = newArray
+        
+        return nums.count
         
     }
     
