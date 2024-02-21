@@ -28,3 +28,8 @@ print(Solution().strStr(haystack, needle))
 let haystack1 = "leetcode"
 let needle1 = "leeto"
 print(Solution().strStr(haystack1, needle1))
+
+// Input:
+let haystack2 = "meettothe"
+let needle2 = "the"
+print(Solution().strStr(haystack2, needle2))
