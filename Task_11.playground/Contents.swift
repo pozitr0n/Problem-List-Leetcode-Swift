@@ -18,7 +18,9 @@ class Solution {
     
 }
 
-// General test
+// General tests of the task
+//=========================//
+
 // Input:
 let haystack = "sadbutsad"
 let needle = "sad"
