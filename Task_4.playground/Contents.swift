@@ -2,6 +2,7 @@ import Foundation
 
 func romanToInt(_ s: String) -> Int {
    
+    // main string array
     let mainString = Array(s)
     var finalValue: Int = 0
     var finalResult: Int = 0
