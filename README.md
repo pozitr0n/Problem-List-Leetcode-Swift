@@ -92,3 +92,7 @@ Consider the number of elements in `nums` which are not equal to val be k, to ge
 
 11. Find the Index of the First Occurrence in a String
 Given two strings `needle` and `haystack`, return the index of the first occurrence of `needle` in `haystack`, or `-1` if `needle` is not part of `haystack`.
+
+12. Majority Element.
+Given an array `nums` of size `n`, return the majority element.
+The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
