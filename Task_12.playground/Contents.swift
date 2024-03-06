@@ -14,8 +14,10 @@ class Solution {
             dictionaryForCounts[currentElement] = (dictionaryForCounts[currentElement] ?? 0) + 1
         }
         
+        // testing
         print(dictionaryForCounts)
         
+        // searching needed element in the dictionary
         guard let key = dictionaryForCounts.max(by: { $0.1 < $1.1 })?.key else {
             return 0
         }
