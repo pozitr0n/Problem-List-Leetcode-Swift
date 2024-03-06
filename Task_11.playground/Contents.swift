@@ -35,3 +35,8 @@ print(Solution().strStr(haystack1, needle1))
 let haystack2 = "meettothe"
 let needle2 = "the"
 print(Solution().strStr(haystack2, needle2))
+
+// Input:
+let haystack3 = "iloveswiftsomuch"
+let needle3 = "love"
+print(Solution().strStr(haystack3, needle3))
